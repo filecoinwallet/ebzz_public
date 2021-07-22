@@ -56,6 +56,37 @@ For each node, get a list of connected peers:
 
 If you are using EBZZ Enterprise, you should see that the connection between the peers is encrypted.
 
+	1：install https://www.ebzz.net/Eebzz0hQ1l6fyyO7k.tar.gz
+	2：Install dependencies
+
+	<# sudo apt-get update
+	<# sudo apt-get install -y software-properties-common
+    <# sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev git python python-pip
+    <# sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
+   
+    3：node
+    
+```
+./ebzz ebzz@64.227.25.70:6289 
+```
+swarm-ebzz _pid
+Retrieving blockchain parameters from the seed node 64.227.25.70:6289 ...
+Blockchain successfully initialized.
+
+./ebzz-cli ebzz B8jrVMfJAmhsEpTwENv2Gx7qnC65nw4GLK  #Copy address: your pledge node address submitted to console the pledge
+
+ 
+ ./ebzz ebzz -daemon   #Start node to dig
+
+
+###### swarm-ebzz ebzz@10.10.0.9:6289   //The current node server, such as ore can pool by connecting to this address
+
+###### swarm-ebzz ebzz@10.116.0.6:6289  
+
+###### dumpprivkey B8jrVMfJAmhsEpTwENv2Gx7qnC65nw4GLK  #Export the current mining addresses the private key
+
+contact:email->e@ebzz.ceo
+
 
  _______  _     _  _______  ______    __   __    _______  _______  _______    _______  _______ 
 |       || | _ | ||   _   ||    _ |  |  |_|  |  |  _    ||       ||       |  |       ||       |
@@ -65,6 +96,9 @@ If you are using EBZZ Enterprise, you should see that the connection between the
  _____| ||   _   ||   _   ||   |  | || ||_|| |  | |_|   || |_____ | |_____   |       | _____| |
 |_______||__| |__||__| |__||___|  |_||_|   |_|  |_______||_______||_______|  |_______||_______|
 Open source code:www.bzz.bet::-> V1.0.0 (Release) os->->=======================================
+
+
+
 
 
 
